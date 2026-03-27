@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miriam Jones">
+    <meta name="description" content="Miriam Jones Writing Portfolio">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="writing.css">
+    <title>Miriam Jones: Writing Portfolio</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>Newsletter Sign Up</span>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+       <ul>
+        <li><a href="index.html">Academic Writing</a></li>
+        <li><a href="creative.html">Creative Writing</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li class="current"><a href="newsletter.html">Newsletter</a></li>
+    </ul>
+
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Story Sparks and Scaffolding: Newsletter</h1>
+        <form method="get" class="myForm" action="thankyou.html">
+            <h3>Get weekly short stories, story snippets, writing prompts, and writing tips.</h3>
+
+        <fieldset>
+            <legend>The Architect's Registry</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Email*<input type="email" name="email" required placeholder="storiesrfun@email.com"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Your Story Cycle</legend>
+                <label><input type="radio" name="method" value="monthly"> Monthly</label>   
+                <label><input type="radio" name="method" value="bi-monthly"> Every Other Month</label> 
+                <label><input type="radio" name="method" value="quarterly"> Quarterly</label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>The Story Menu</legend>
+                <label><input type="checkbox" name="short stories" value="chosen"> Short Stories</label> 
+                <label><input type="checkbox" name="story snippets" value="chosen"> Story Snippets</label> 
+                <label><input type="checkbox" name="writing prompts" value="chosen"> Writing Prompts</label> 
+                <label><input type="checkbox" name="writing tips" value="chosen"> Writing Tips</label> 
+
+                <label>How did you hear about Story Sparks and Scaffolding?
+                <select name="time">
+                    <option value="none"> Please Select</option>
+                    <option value="morning"> Social Media</option>
+                    <option value="noon"> Word of Mouth</option>
+                    <option value="afternoon"> A Friend's Recommendation</option>
+                    <option value="Evening"> Search Engine</option>
+                </select>
+                </label>
+        </fieldset>
+
+        <label>Request a Spark
+            <textarea name="comments"></textarea>
+        </label>
+
+        <input type="submit" value="Ignite the Spark">
+
+        </form>
+    </main>
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2026 &bull;Miriam Jones &bull; Writing Portfolio</p>
+    </footer>
+</body>
+</html>
