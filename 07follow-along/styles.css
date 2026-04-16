@@ -43,7 +43,7 @@ header p {
         font-weight: 700;
         text-transform: uppercase;
     }
-    nav.active a {
+    nav .active a {
         background-color: #8C501B;
         color: white; 
         background-image: linear-gradient(to bottom, #8b5022, #663b19);
